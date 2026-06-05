@@ -6,7 +6,7 @@
 :dizzy: Аналог [AmneziaWG + MikroTik](https://github.com/catesin/AmneziaWG-MikroTik)
 
 
-В данном репозитории рассматривается работа MikroTik RouterOS V7.20.6+ с протоколом **XRay Vless Reality**. В процессе настройки, относительно вашего оборудования, следует выбрать вариант реализации с [контейнером](https://help.mikrotik.com/docs/display/ROS/Container) внутри RouterOS или без контейнера. 
+В данном репозитории рассматривается работа MikroTik RouterOS V7.23.1+ с протоколом **XRay Vless Reality**. В процессе настройки, относительно вашего оборудования, следует выбрать вариант реализации с [контейнером](https://help.mikrotik.com/docs/display/ROS/Container) внутри RouterOS или без контейнера. 
 
 Предполагается что вы уже настроили серверную часть Xray например [с помощью панели управления 3x-ui](https://github.com/MHSanaei/3x-ui) и протестировали конфигурацию клиента, например на смартфоне или персональном ПК.
 
@@ -201,7 +201,7 @@ add slot=ramstorage tmpfs-max-size=100M type=tmpfs
 
 :anger: Пример импортируемой строки из 3x-ui раздела клиента "Details" (у вас настройки должны быть сгенерированы свои):
 ```
-vless://62878542-8f68-42f0-8c66-e5a46e9c2cb1@mydomain.com:443?type=tcp&encryption=none&security=reality&pbk=7JTFIDt3Eyihq723jpp564DnK8X_GHLs_jHjLrRMFng&fp=chrome&sni=google.com&sid=aeb4c72f73a05af2&spx=%2F&pqv=LjRcyvTpvdwE2DV-s7rUGVotLw1LNHH3cPCHnBlRXgJ7aGpImVv-axSQhotFbEcQfm_VQgEMzoLvzFlv9gFj8vWpsiDRqPYmDzs_3ZsTNJVx-X9dmrXuqMvenoEw-wc5OtITk5kOTks62ipPkem3ZX4aLzhNH9BhK-H4XE3nJybcpNc3yOBH1OwOBDV6OnpDXexqsbxuCJPBoUgW8TY8hW5GqSHKs7hg1sSegM_App-CLjMhnL3_u3T41B7pbI0ScRj63wLT9oz_i3DxoMHiz1o57XkxUTvS3f-YoFlUhs6LHXCeEwDU1TRkd-tQuNx3xK1fMbgxaK-Tk2YVD25L7-eWEOiZ2yiED_kRIZWH-1TjEPSvB9rIPYBlQTUxa4T4zIkbnCRDStu4nx4mqJg2cAFQqJXAmuyKGyuTEHBqPLJSpnQJ1es9BFCDEEXstkD3vzVBDpFNl0DZcTh9yDFMz7WDSX5LGuwOkywKhvSXBUG42ZtWpZVkFnGJmRIkkvs8-LoY1AvbVy52ylhSvfDsjIk6WeKhyBRfT5WRhWfO5rUdQeN8c8gD7WMTqCLAci1QChXLQRleD8irni1a-40C4h1UNWFBCj8MrZw8O9k5jxIvoVFyTOxkeepv_Ll8Pb6lb4qeO0wKfjACHnQBq6psWRABCUuUKPmEwllACQk44wDpfdpcl4oKHM5-lQ9nzuOo_-THMZRKH1zjYLi5bUH_NQu7BEyZjXNBakV5bEq6FtNxWO9kCB2Ny7NeGelLL7xdg2Je30AMTEHMMymq1mNWL5R926TdGMTuJYHx49YfIygcZJaZWc8h_YCGs53lsGMG6vCBRHfF72J_bqKAndKWd8atC1ivxmGayMomfwaT85QitSQ-U7ka4nzktgnim4qsoMarwWwrteWQkjelGHCZl3RyGQoLZaNl_aV2YHn2QRQ0GyJdaJylJpnYfbUrQZymz8aF2-3HAtVos18vJrKEdpxpgyVth5JzPO8VSlzolYMuR_CCEJnd-aw27iBR-XStYfmTNqEe93nLNbpfr3h6M4avVFTbZQsqpD7V4CC3wAHhpemx2s9NyH-qnSmyBLMsM1t4XxjPBJ-6vEXyZOJ0bgaV4jF9NZ2XnuY64fRf1RrNEZOmA3-t2cGs2j5qROqE7r3ZppEpBqt9hJys5aWOZfYxpgAi-79O9ArjsngGAtOR2mxXsJJd77LT5K_P9jCZSd3GoCFdJBhenI4e2UO4YjWTfwUV8tchRUE-0lI09DkkVwwpxumxvjVt4SXzcDw0Zrr59mMvWFHT14IQ20pRoI64uizd2nGvXJ3E4_bxwi2GEmlqheTo2IYfqVnLzJ2HzM1TYvPGMH_DILdDMQRjlYFJURSYEaCPc2ebjdz1PJZglV01eQkZh3S18FE2C7CqvKAIwqpTLk5FA_ZYZ5pzCFMMyR9Gjrsm9GXlyjlVbcz2Z51aXj905qjoJ0hUesIgK3tAuDShrD7BgCek0711DQRfil02GbLMeHV7UAAPA61IKrEZq2gfM4IBWA-BfY8sI8E005OLDqn8BRp0AlilG0RO-fOA6xverjKtJTdRR8tU8b7HA57Ht9im42hrgcwV7hFVK_sMn-MxrS5ZqRn-bEwthWlgL6avDJQKnu94ykPOfcjzvPFamjusGjOJtgYWslMiKXjRh0VgD3zuXaPz14FENpiCPYf2z-aYU3ZaJHa2-Ri2uww6BT6zHJvRY4qwDjbga8RuvPH9_dBjWK8HjNpqkOlcvacgbRe_-wqIFkX7oFSNzZwOBgbqFUSPGS2lWZeHHO5n5caBazcmGnf5qZI75BKbVs196Vp0aGOu_tWkQb98XwJB7xrAocMTMyqT63AJG5sUQ4k9_dta0Gnp1CfQQTbaoodL4UizK6JUgubKmLcYX_zdclnBySJAfDQGvnDBO6mhlnN7TJ0gB_wQ4AdLeXJtQn0CmABSVsL3IiRYNBp6BWrntBS26Kt1GAhatRAC4leUU-XrtCHof9zf4KbCQvxl2GN2ducRPpZrzxAXNpIY6yAXVQTVGxutHgsdEbzdSXVYyS7P4rK0idr_DFTTZvSoYJIJ4cBmPWL1yQW-c-NBwYOGotZvJPdoNSEzo5_6RwL1fsA23MDcbnsps15z-iIDophqddg56z3PN9PUi8kFc3vqjxhD9usDXOv1vFLzawZHPstH2Jx2zIMrceBHa8ShZcUVws7iWxwF4Ie9ciaOwLXgiLw8IZm0-wb4tLdCvJwQjN2v2R3Are4PulLcma7J6gEiVKdT9-wA2A1M4W-o916UaTSs2llielbh92UDOti-2L_u5CoGBNxjtlQ8ZKyFJxxtwl6tsEgwvV2FHFCt-BfEJ6kSrYVTnsexi03kf8STuE_QJNgouUgYdC9xRqg-KvcIW3Ag_FcACaqIE5YDM7rvVeKNz-F8JgxqMIThA95_sLxzeAqzfBci0i3Hq7qXCphKKILHmh-OK0Fmz93fbc1-VKkQqCKl0VqygsxAafGW15nTW-qYgeoxOQPLud0Mzh7gZdwzenc8a65dwH8pvZGzoayBmRGgOf91IcRxFTMyxkwrVkav5qIt1lMto62VgPkR2PTrWDUlAHA&flow=xtls-rprx-vision#4xg43kggm
+vless://62878542-8f68-42f0-8c66-e5a46e9c2cb1@mydomain.com:443?type=tcp&encryption=none&security=reality&pbk=7JTFIDt3Eyihq723jpp564DnK8X_GHLs_jHjLrRMFng&fp=randomized&sni=google.com&sid=aeb4c72f73a05af2&spx=%2F&flow=xtls-rprx-vision#4xg43kggm
 ```
 Размещаем данные параметры для передачи в контейнер
 
@@ -212,13 +212,13 @@ vless://62878542-8f68-42f0-8c66-e5a46e9c2cb1@mydomain.com:443?type=tcp&encryptio
 |   **SERVER_PORT**  |                     443                     | Порт сервера                                     |
 |       **ID**       |     62878542-8f68-42f0-8c66-e5a46e9c2cb1    | UUID клиента VLESS                               |
 |   **ENCRYPTION**   |                     none                    | Для VLESS всегда `none`                          |
+|     **NETWORK**    |                   tcp                       | Stream для Xray (tcp(RAW),XHTTP)/ другие)        |
 |      **FLOW**      |               xtls-rprx-vision              | Flow для Xray (Vision / другие)                  |
-|       **FP**       |                    chrome                   | Fingerprint REALITY (браузерная маскировка)      |
+|       **FP**       |                    randomized               | Fingerprint REALITY (браузерная маскировка)      |
 |       **SNI**      |                  google.com                 | SNI для TLS / REALITY                            |
 |       **PBK**      | 7JTFIDt3Eyihq723jpp564DnK8X_GHLs_jHjLrRMFng | Публичный ключ REALITY                           |
 |       **SID**      |               aeb4c72f73a05af2              | ShortId REALITY                                  |
 |       **SPX**      |                      /                      | Путь SpiderX для REALITY                         |
-|       **PQV**      |      LjRcyvTpvdwE2DV-s7rUGVotLw1LNH…        | PQV (post-quantum value), сокращено для удобства |
 
 ```
 /container envs
@@ -226,13 +226,13 @@ add key=SERVER_ADDRESS list=xvr value=mydomain.com
 add key=SERVER_PORT list=xvr value=443
 add key=ID list=xvr value=62878542-8f68-42f0-8c66-e5a46e9c2cb1
 add key=ENCRYPTION list=xvr value=none
+add key=NETWORK list=xvr value=tcp
 add key=FLOW list=xvr value=xtls-rprx-vision
-add key=FP list=xvr value=chrome
+add key=FP list=xvr value=randomized
 add key=SNI list=xvr value=google.com
 add key=PBK list=xvr value=7JTFIDt3Eyihq723jpp564DnK8X_GHLs_jHjLrRMFng
 add key=SID list=xvr value=aeb4c72f73a05af2
 add key=SPX list=xvr value=/
-add key=PQV list=xvr value="LjRcyvTpvdwE2DV-s7rUGVotLw1LNHH3cPCHnBlRXgJ7aGpImVv-axSQhotFbEcQfm_VQgEMzoLvzFlv9gFj8vWpsiDRqPYmDzs_3ZsTNJVx-X9dmrXuqMvenoEw-wc5OtITk5kOTks62ipPkem3ZX4aLzhNH9BhK-H4XE3nJybcpNc3yOBH1OwOBDV6OnpDXexqsbxuCJPBoUgW8TY8hW5GqSHKs7hg1sSegM_App-CLjMhnL3_u3T41B7pbI0ScRj63wLT9oz_i3DxoMHiz1o57XkxUTvS3f-YoFlUhs6LHXCeEwDU1TRkd-tQuNx3xK1fMbgxaK-Tk2YVD25L7-eWEOiZ2yiED_kRIZWH-1TjEPSvB9rIPYBlQTUxa4T4zIkbnCRDStu4nx4mqJg2cAFQqJXAmuyKGyuTEHBqPLJSpnQJ1es9BFCDEEXstkD3vzVBDpFNl0DZcTh9yDFMz7WDSX5LGuwOkywKhvSXBUG42ZtWpZVkFnGJmRIkkvs8-LoY1AvbVy52ylhSvfDsjIk6WeKhyBRfT5WRhWfO5rUdQeN8c8gD7WMTqCLAci1QChXLQRleD8irni1a-40C4h1UNWFBCj8MrZw8O9k5jxIvoVFyTOxkeepv_Ll8Pb6lb4qeO0wKfjACHnQBq6psWRABCUuUKPmEwllACQk44wDpfdpcl4oKHM5-lQ9nzuOo_-THMZRKH1zjYLi5bUH_NQu7BEyZjXNBakV5bEq6FtNxWO9kCB2Ny7NeGelLL7xdg2Je30AMTEHMMymq1mNWL5R926TdGMTuJYHx49YfIygcZJaZWc8h_YCGs53lsGMG6vCBRHfF72J_bqKAndKWd8atC1ivxmGayMomfwaT85QitSQ-U7ka4nzktgnim4qsoMarwWwrteWQkjelGHCZl3RyGQoLZaNl_aV2YHn2QRQ0GyJdaJylJpnYfbUrQZymz8aF2-3HAtVos18vJrKEdpxpgyVth5JzPO8VSlzolYMuR_CCEJnd-aw27iBR-XStYfmTNqEe93nLNbpfr3h6M4avVFTbZQsqpD7V4CC3wAHhpemx2s9NyH-qnSmyBLMsM1t4XxjPBJ-6vEXyZOJ0bgaV4jF9NZ2XnuY64fRf1RrNEZOmA3-t2cGs2j5qROqE7r3ZppEpBqt9hJys5aWOZfYxpgAi-79O9ArjsngGAtOR2mxXsJJd77LT5K_P9jCZSd3GoCFdJBhenI4e2UO4YjWTfwUV8tchRUE-0lI09DkkVwwpxumxvjVt4SXzcDw0Zrr59mMvWFHT14IQ20pRoI64uizd2nGvXJ3E4_bxwi2GEmlqheTo2IYfqVnLzJ2HzM1TYvPGMH_DILdDMQRjlYFJURSYEaCPc2ebjdz1PJZglV01eQkZh3S18FE2C7CqvKAIwqpTLk5FA_ZYZ5pzCFMMyR9Gjrsm9GXlyjlVbcz2Z51aXj905qjoJ0hUesIgK3tAuDShrD7BgCek0711DQRfil02GbLMeHV7UAAPA61IKrEZq2gfM4IBWA-BfY8sI8E005OLDqn8BRp0AlilG0RO-fOA6xverjKtJTdRR8tU8b7HA57Ht9im42hrgcwV7hFVK_sMn-MxrS5ZqRn-bEwthWlgL6avDJQKnu94ykPOfcjzvPFamjusGjOJtgYWslMiKXjRh0VgD3zuXaPz14FENpiCPYf2z-aYU3ZaJHa2-Ri2uww6BT6zHJvRY4qwDjbga8RuvPH9_dBjWK8HjNpqkOlcvacgbRe_-wqIFkX7oFSNzZwOBgbqFUSPGS2lWZeHHO5n5caBazcmGnf5qZI75BKbVs196Vp0aGOu_tWkQb98XwJB7xrAocMTMyqT63AJG5sUQ4k9_dta0Gnp1CfQQTbaoodL4UizK6JUgubKmLcYX_zdclnBySJAfDQGvnDBO6mhlnN7TJ0gB_wQ4AdLeXJtQn0CmABSVsL3IiRYNBp6BWrntBS26Kt1GAhatRAC4leUU-XrtCHof9zf4KbCQvxl2GN2ducRPpZrzxAXNpIY6yAXVQTVGxutHgsdEbzdSXVYyS7P4rK0idr_DFTTZvSoYJIJ4cBmPWL1yQW-c-NBwYOGotZvJPdoNSEzo5_6RwL1fsA23MDcbnsps15z-iIDophqddg56z3PN9PUi8kFc3vqjxhD9usDXOv1vFLzawZHPstH2Jx2zIMrceBHa8ShZcUVws7iWxwF4Ie9ciaOwLXgiLw8IZm0-wb4tLdCvJwQjN2v2R3Are4PulLcma7J6gEiVKdT9-wA2A1M4W-o916UaTSs2llielbh92UDOti-2L_u5CoGBNxjtlQ8ZKyFJxxtwl6tsEgwvV2FHFCt-BfEJ6kSrYVTnsexi03kf8STuE_QJNgouUgYdC9xRqg-KvcIW3Ag_FcACaqIE5YDM7rvVeKNz-F8JgxqMIThA95_sLxzeAqzfBci0i3Hq7qXCphKKILHmh-OK0Fmz93fbc1-VKkQqCKl0VqygsxAafGW15nTW-qYgeoxOQPLud0Mzh7gZdwzenc8a65dwH8pvZGzoayBmRGgOf91IcRxFTMyxkwrVkav5qIt1lMto62VgPkR2PTrWDUlAHA"
 ```
 
 7) Теперь создадим сам контейнер. Здесь вам нужно выбрать репозиторий из [Docker Hub](https://hub.docker.com/u/catesin) с архитектурой под ваше устройство. не создавайте заранее каталог для параметра "root-dir"
@@ -264,14 +264,13 @@ add key=PQV list=xvr value="LjRcyvTpvdwE2DV-s7rUGVotLw1LNHH3cPCHnBlRXgJ7aGpImVv-
 ![img](Demonstration/1.3.png)
 
 :anger:
-Контейнер будет использовать только локальный DNS сервер на IP адресе 172.18.20.5. Необходимо разрешить DNS запросы TCP/UDP порт 53 на данный IP в правилах RouterOS в разделе ```/ip firewall filter```
+Контейнер будет использовать только локальный DNS сервер на IP адресе шлюза, коим для него будет адрес роутера 172.18.20.5. Необходимо разрешить DNS запросы TCP/UDP порт 53 на данный IP в правилах RouterOS в разделе ```/ip firewall filter```
 Указанные правила должны быть выше запрещающих. 
 ```
 /ip firewall filter
 add chain=input in-interface=docker-xray-vless-veth src-address=172.18.20.6 dst-address=172.18.20.5 protocol=udp dst-port=53 action=accept comment="container -> local DNS (UDP/53)"
 add chain=input in-interface=docker-xray-vless-veth src-address=172.18.20.6 dst-address=172.18.20.5 protocol=tcp dst-port=53 action=accept comment="container -> local DNS (TCP/53)"
 ```
-
 
 8) Запускаем контейнер через WinBox в разделе меню Winbox "container". В логах MikroTik вы увидите характерные сообщения о запуске контейнера. 
 
@@ -380,21 +379,19 @@ nano /opt/start.sh
 |       **ID**       |     62878542-8f68-42f0-8c66-e5a46e9c2cb1    | UUID клиента VLESS                               |
 |   **ENCRYPTION**   |                     none                    | Для VLESS всегда `none`                          |
 |      **FLOW**      |               xtls-rprx-vision              | Flow для Xray (Vision / другие)                  |
-|       **FP**       |                    chrome                   | Fingerprint REALITY (браузерная маскировка)      |
+|     **NETWORK**    |                   tcp                       | Stream для Xray (tcp(RAW),XHTTP)/ другие)        |
+|       **FP**       |                    randomized               | Fingerprint REALITY (браузерная маскировка)      |
 |       **SNI**      |                  google.com                 | SNI для TLS / REALITY                            |
 |       **PBK**      | 7JTFIDt3Eyihq723jpp564DnK8X_GHLs_jHjLrRMFng | Публичный ключ REALITY                           |
 |       **SID**      |               aeb4c72f73a05af2              | ShortId REALITY                                  |
 |       **SPX**      |                      /                      | Путь SpiderX для REALITY                         |
-|       **PQV**      |      LjRcyvTpvdwE2DV-s7rUGVotLw1LNH…        | PQV (post-quantum value), сокращено для удобства |
-|     **GATEWAY**    |              172.18.20.5                    | IP шлюз по-умолчанию в Linux (подсмотреть через ```ip r```)|
-|   **ADAPTER_NAME** |                eth0                         | Название физического адаптера в Linux (подсмотреть через ```ip a```) |
 
 ```
 #!/bin/sh
 echo "Starting setup Linux please wait"
 pkill xray
 pkill tun2socks
-sleep 1
+sleep 2
 
 # Заполните данные переменные из конфигурации клиента для Xray 3x-ui
 SERVER_ADDRESS=***
@@ -402,18 +399,30 @@ SERVER_PORT=***
 ID=***
 ENCRYPTION=***
 FLOW=***
+NETWORK=***
 FP=***
 SNI=***
 PBK=***
 SID=***
 SPX=***
-PQV=***
-GATEWAY=***
-ADAPTER_NAME=***
+
+CONTAINER_BRIDGE_IP=$(ip route | grep default | awk '{print $3}')
+echo "Setup Linux DNS please wait"
+rm -f /etc/resolv.conf
+tee -a /etc/resolv.conf <<< "nameserver "$CONTAINER_BRIDGE_IP""
+
+sleep 1
+
+SERVER_IP_ADDRESS=$(ping -c 1 $SERVER_ADDRESS | awk -F'[()]' '{print $2}')
+NET_IFACE=$(ip -o link show | awk -F': ' '{print $2}' | grep -vE 'lo|tun' | head -n1 | cut -d'@' -f1)
 
 
-# Получение IP-адреса
-SERVER_IP_ADDRESS=$(getent ahosts $SERVER_ADDRESS | head -n 1 | awk '{print $1}')
+echo "SERVER_ADDRESS: $SERVER_ADDRESS"
+echo "SERVER_IP_ADDRESS: $SERVER_IP_ADDRESS"
+echo "NET_IFACE: $NET_IFACE"
+echo "CONTAINER_BRIDGE_IP: $CONTAINER_BRIDGE_IP"
+
+sleep 1
 
 if [ -z "$SERVER_IP_ADDRESS" ]; then
   echo "Failed to obtain an IP address for FQDN $SERVER_ADDRESS"
@@ -425,21 +434,15 @@ ip tuntap del mode tun dev tun0
 ip tuntap add mode tun dev tun0
 ip addr add 172.31.200.10/30 dev tun0
 ip link set dev tun0 up
-ip route del default via $GATEWAY
+ip route del default via $CONTAINER_BRIDGE_IP
 ip route add default via 172.31.200.10
-ip route add $SERVER_IP_ADDRESS/32 via $GATEWAY
-ip route add 1.0.0.1/32 via $GATEWAY
-ip route add 8.8.4.4/32 via $GATEWAY
-ip route add 192.168.0.0/16 via $GATEWAY
-ip route add 10.0.0.0/8 via $GATEWAY
-ip route add 172.16.0.0/12 via $GATEWAY
+ip route add $SERVER_IP_ADDRESS/32 via $CONTAINER_BRIDGE_IP
+ip route add 1.0.0.1/32 via $CONTAINER_BRIDGE_IP
+ip route add 8.8.4.4/32 via $CONTAINER_BRIDGE_IP
+ip route add 192.168.0.0/16 via $CONTAINER_BRIDGE_IP
+ip route add 10.0.0.0/8 via $CONTAINER_BRIDGE_IP
+ip route add 172.16.0.0/12 via $CONTAINER_BRIDGE_IP
 
-
-# Обновление resolv.conf
-rm -f /etc/resolv.conf
-tee -a /etc/resolv.conf <<< "nameserver $GATEWAY"
-tee -a /etc/resolv.conf <<< "nameserver 1.0.0.1"
-tee -a /etc/resolv.conf <<< "nameserver 8.8.4.4"
 
 # Генерация конфигурации для Xray
 cat <<EOF > /opt/xray/config/config.json
@@ -482,15 +485,14 @@ cat <<EOF > /opt/xray/config/config.json
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "$NETWORK",
         "security": "reality",
         "realitySettings": {
           "fingerprint": "$FP",
           "serverName": "$SNI",
           "publicKey": "$PBK",
           "shortId": "$SID",
-		  "spx": "$SPX",
-		  "pqv":"$PQV"
+		      "spx": "$SPX"
         }
       }
     }
@@ -504,7 +506,7 @@ EOF
 echo "Start Xray core"
 /opt/xray/xray run -config /opt/xray/config/config.json &
 echo "Start tun2socks"
-/opt/tun2socks/tun2socks -loglevel silent -tcp-sndbuf 3m -tcp-rcvbuf 3m -device tun0 -proxy socks5://127.0.0.1:10800 -interface $ADAPTER_NAME &
+/opt/tun2socks/tun2socks -loglevel silent -tcp-sndbuf 3m -tcp-rcvbuf 3m -device tun0 -proxy socks5://127.0.0.1:10800 -interface $NET_IFACE &
 echo "Linux customization is complete"
 ```
 
